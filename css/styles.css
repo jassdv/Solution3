@@ -1,0 +1,48 @@
+body{
+	/*add here general styling that will apply the entire page*/
+
+  font-size: 16px;
+  color: #fff;
+  padding-top: 0;
+  
+ }
+
+ #header-nav{
+background-color: #A9A9A9;
+border-radius: 0;
+border-color: black;
+border-width: 3px;
+ }
+
+ .navbar-brand{
+ 	padding-top: 25px;
+ }
+
+ .navbar-brand h1{
+ 	font-family: 'Arial', Sans-serif;
+ 	color: black;
+ 	font-size: 1.5em;
+ 	text-transform: uppercase;
+ 	font-weight: bold;
+ 	margin-top: -10px;
+ 	margin-bottom: 0;
+
+ }
+
+ #nav-list {
+  margin-top: 50px;
+  background-color: white
+  border-width: 100%;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+  border-color: black;
+  border-width: 3px;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span{
+	font-size: 1.8em;
+}
