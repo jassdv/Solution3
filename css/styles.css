@@ -30,19 +30,49 @@ border-width: 3px;
  }
 
  #nav-list {
-  margin-top: 50px;
-  background-color: white
-  border-width: 100%;
-}
+  margin-top: 0;
+  background-color: #ffb399;
+  margin-bottom: 0;
+
+    
+ }
 #nav-list a {
   color: black;
   text-align: center;
-  border-color: black;
-  border-width: 3px;
+  border-top: solid;
+  border-top-color: black;
+  
+  
+  
 }
 #nav-list a:hover {
   background: #E7E7E7;
+
 }
 #nav-list a span{
+	font-size: 1.2em;
+
+	
+}
+
+#main header{
+	color: black;
 	font-size: 1.8em;
+}
+
+h2{
+	color: black;
+	font-size: 1.8em;
+}
+
+#main-content{
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+#main-menu{
+	height: 1000px;
+	background-color: #ffe699;
+	color: black;
+	font-size: 1.2em;
 }
